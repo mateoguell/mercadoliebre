@@ -14,10 +14,10 @@ h3{
 }
 
 p{
-    font-size: 12px;
+    font-size: 15px;
 }
 div.top-header{
-    padding: 5%;
+    padding: 15px;
 }
 
 header{
@@ -26,12 +26,9 @@ header{
 }
 
 header div.logo{
-    width: 50%;
+    max-width: 50%;
 }
 
-header div.logo{
-    padding: 10px;
-}
 header nav{
     font-size: 12px;
 }
@@ -59,12 +56,9 @@ header .form .submit{
     width: 10%;
 }
 
-header div.top-header p{
-    width: 100%;
-    margin-top: 10px;
-}
 .copy-header{
     text-align: center;
+    font-size: 22px;
 }
 div.burger-menu{
     text-align: center;
@@ -88,6 +82,10 @@ article div.main-article{
 
 .price{
     font-size: 18px;
+    margin: 0 5px;
+}
+.discount{
+    margin: 0 5px;
 }
 
 .discount,
@@ -136,10 +134,6 @@ main section article i{
     padding: 5px;
     width: 30px;
     height: 30px;
-    font-size: 16px;
-    background-color: #FFF;
-    position: absolute;
-    right: 20px;
 }
 .main-navbar{
     display: none;
@@ -156,18 +150,116 @@ main section article i{
     padding: 5px 0;
     font-size: 17px;
 }
+.posicion-camion{
+    text-align: right;
+    margin-top: -15px;
+}
+.precio-descuento{
+    display: flex;
+    align-items: center;
+}
+.form{
+    max-width: 50%;
+}
+footer{
+    background-color: #e7e7e7;
+}
 
+footer div article{
+    text-align: center;
+    padding: 30px;
+}
+
+footer div article p{
+    padding: 0 20px;
+}
+
+.beneficios{
+    padding-top: 20px;
+}
+.beneficios_icon{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+#copyright{
+    padding: 20px;
+}
 @media (min-width: 768px){
     .top-header{
-        border: dotted 2px red;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     .copy-header{
         max-width: 350px;
+        font-size: 22px;
         text-align: right;
     }
     .burger-menu{
         display: none;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar{
+        margin-top: 25px;
+    }
+    .main-navbar ul{
+        display: flex;
+    }
+    .main-navbar li{
+        margin: 0 5px;
+    }
+    .discount{
+        font-size: 20px;
+    }
+    .price{
+        font-size: 24px;
+    }
+    .articulos-productos{
+        margin: 5px;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .form{
+        max-width: none;
+        flex-grow: 1;
+        padding: 15px;
+        margin-top: 5px;
+    }
+    header div.logo{
+        width: 30%;
+    }
+}
+@media (min-width: 1200px){
+    .logo{
+        width: 35%;
+    }
+    .top-header, .main-navbar{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .top-header{
+        align-items: center;
+    }
+    .copy-header{
+        margin: 0;
+        max-width: none;
+        font-size: 22px;
+    }
+
+    .main-navbar li{
+        margin: 0 10px;
+    }
+    .main-navbar a{
+        font-size: 19px;
+    }
+    .articulos-productos{
+        margin: 15px;
+    }
+    .products{
+        display: flex;
     }
 }
