@@ -4,45 +4,41 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #ebebeb;
 }
-
-h3{
-    font-size: 24px;
+main{
+    width: 100%;
+    padding: 10px;
 }
-
 p{
     font-size: 15px;
 }
 div.top-header{
     padding: 15px;
 }
-
 header{
     width: 100%;
     background-color: #EAC926;
 }
-
 header div.logo{
     max-width: 50%;
 }
-
+.form{
+    display: flex;
+    justify-content:center ;
+}
 header nav{
     font-size: 12px;
 }
-
 header ul li{
     list-style-type: none;
 }
-
 header ul li a{
     text-decoration: none;
     color: #000;
 }
-
 header .form .input{
     background-color: #FFF;
     border: 1px solid #000;
@@ -57,9 +53,8 @@ header .form .submit{
     width: 10%;
 }
 .submit{
-max-width: fit-content;
+    max-width: fit-content;
 }
-
 .copy-header{
     text-align: center;
     font-size: 22px;
@@ -67,7 +62,6 @@ max-width: fit-content;
 div.burger-menu{
     text-align: center;
 }
-
 div.burger-menu i{
     background-color: #0044AA;
     border-radius: 5px;
@@ -77,67 +71,6 @@ div.burger-menu i{
     margin: 10px 0px 20px 0px;
     padding: 10px;
     width: 40px;
-}
-
-article div.main-article{
-    width: 100%;
-    border-top: solid 1px #ebebeb;
-}
-
-.price{
-    font-size: 18px;
-    margin: 0 5px;
-}
-.discount{
-    margin: 0 5px;
-}
-
-.discount,
-.description{
-    font-size: 16px;
-    font-weight: normal;
-}
-
-h3,
-.description{
-    color: #666;
-}
-
-section.banner img{
-    width: 100%;
-}
-
-main{
-    width: 100%;
-    padding: 10px;
-}
-
-main section article{
-    margin-top: 10px;
-    background-color: #fff;
-    padding: 10px;
-}
-
-main section article img{
-    width: 100%;
-}
-
-main section article i,
-.discount{
-    color: #39b54a;
-}
-
-.description{
-    margin-top: 15px;
-}
-
-main section article i{
-    display: block;
-    border: #39b54a solid 1px;
-	border-radius: 50%;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
 }
 .main-navbar{
     display: none;
@@ -154,32 +87,21 @@ main section article i{
     padding: 5px 0;
     font-size: 17px;
 }
-.posicion-camion{
-    text-align: right;
-    margin-top: -15px;
+main form{
+    text-align: center;
+    margin-top: 150px;
 }
-.precio-descuento{
-    display: flex;
-    align-items: center;
-}
-.form{
-    display: flex;
-    justify-content: center;
-}
-
 footer{
     background-color: #e7e7e7;
+    margin-top: 200px;
 }
-
 footer div article{
     text-align: center;
     padding: 30px;
 }
-
 footer div article p{
     padding: 0 20px;
 }
-
 .beneficios{
     padding-top: 20px;
 }
@@ -188,12 +110,10 @@ footer div article p{
     margin-bottom: 10px;
     color: #1259c3;
 }
-
 #copyright{
     padding: 20px;
     text-align: center;
 }
-
 @media (min-width: 768px){
     .top-header{
         display: flex;
@@ -240,20 +160,10 @@ footer div article p{
     header div.logo{
         width: 30%;
     }
-    .division-producto{
-        display: flex;
-        max-width: 70%;
-        justify-content: center;
-        margin: auto;
-    }
-    .articulos-productos{
-        margin: 15px;
-    }
     .logo-busqueda{
         display: contents;
     }
 }
-
 @media (min-width: 1200px){
     .logo{
         width: 35%;
@@ -276,21 +186,10 @@ footer div article p{
     .main-navbar a{
         font-size: 19px;
     }
-    .articulos-productos{
-        margin: 15px;
-    }
-    .products{
-        display: flex;
+    .logo-busqueda{
+        display: contents;
     }
     .beneficios{
         display: flex;
-        justify-content: center;
-    }
-    
-    .division-producto{
-        display: contents;
-    }
-    .logo-busqueda{
-        display: contents;
     }
 }

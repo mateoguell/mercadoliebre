@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -91,7 +92,30 @@ div.burger-menu i{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 80px;
+}
+footer{
+    background-color: #e7e7e7;
+    margin-top: 90px;
+}
+footer div article{
+    text-align: center;
+    padding: 30px;
+}
+footer div article p{
+    padding: 0 20px;
+}
+.beneficios{
+    padding-top: 20px;
+}
+.beneficios_icon{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+#copyright{
+    padding: 20px;
+    text-align: center;
 }
 @media (min-width: 768px){
     .top-header{
@@ -143,7 +167,6 @@ div.burger-menu i{
         display: contents;
     }
 }
-
 @media (min-width: 1200px){
     .logo{
         width: 35%;
@@ -168,5 +191,10 @@ div.burger-menu i{
     }
     .logo-busqueda{
         display: contents;
+    }
+    .beneficios{
+        display: flex;
+        text-align: center;
+        justify-content: center;
     }
 }
