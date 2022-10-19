@@ -59,7 +59,15 @@ header .form .submit{
 .submit{
 max-width: fit-content;
 }
-
+div.input {
+    display: flex;
+    width: 100%;
+}
+div.input button {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
 .copy-header{
     text-align: center;
     font-size: 22px;

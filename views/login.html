@@ -42,14 +42,18 @@
     </header>
     <main>
         <form action="/log-in" method="post">
-            <p>
-                <label for="usuario"><i class="fas fa-user"></i></label>
-                <input type="text" name="usuario" id="usuario" placeholder="Ingrese Usuario" required>
-            </p>
-            <p>
-                <label for="password"><i class="fas fa-unlock"></i></label>
-                <input type="password" name="password" id="password" placeholder="Ingrese Contraseña" required minlength="8">
-            </p>
+            <div class="input-div">
+                <div class="separar">
+                <i class="fas fa-user"></i>
+                <label for="usuario"></label>
+                <input type="text" name="usuario" id="usuario" placeholder="Ingrese Usuario" required class="input-log">
+                </div>
+                <div class="separar">
+                <i class="fas fa-unlock"></i>
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Ingrese Contraseña" required minlength="8" class="input-log">
+                </div>
+            </div>
             <p>
                 <button type="submit">Login</button>
             </p>

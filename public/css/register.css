@@ -90,9 +90,52 @@ div.burger-menu i{
 }
 .form-contenedor{
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-top: 80px;
+}
+div.input {
+    display: flex;
+    width: 100%;
+    width: -webkit-fill-available;
+    max-width: 800px;
+    margin-left: 15%;
+}
+
+.input-div{
+    display: grid;
+}
+
+div.input button {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+main form{
+    font-size: 20px;
+    margin-right: 3px;
+    color: #060569;
+}
+main button{
+    background-color: #92d9f1;
+    color: #ffffff;
+    padding: 2px 7px;
+    border-radius: 7px;
+    font-size: 16px;
+    border: none;
+}
+.boton1{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.boton2{
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-size: 20px;
+    color: #060569;
 }
 footer{
     background-color: #e7e7e7;

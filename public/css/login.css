@@ -91,6 +91,26 @@ main form{
     text-align: center;
     margin-top: 150px;
 }
+div.input {
+    display: flex;
+    width: 100%;
+}
+div.input button {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.input-log{
+    max-width: 800px;
+    flex-grow: 1;
+}
+button{
+    margin-top: 10px;
+}
+.separar{
+    display: flex;
+    justify-content: center;
+}
 footer{
     background-color: #e7e7e7;
     margin-top: 200px;
@@ -191,5 +211,6 @@ footer div article p{
     }
     .beneficios{
         display: flex;
+        justify-content: center;
     }
 }
